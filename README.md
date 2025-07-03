@@ -75,7 +75,7 @@ We explored how well image-based embeddings alone can predict brain activity for
 ---
 
 ## 🔗 Original datasets
-- The code is based on Pereira et al. (2018) data base which can be found here [Lonk to dataset](https://osf.io/hmgv2)
+- The code is based on Pereira et al. (2018) data base which can be found here [Link to dataset](https://osf.io/hmgv2)
 
 ---
 
