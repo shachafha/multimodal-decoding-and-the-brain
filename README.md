@@ -1,7 +1,7 @@
 
 # Words, Images, and the Mind: Bridging Neural Signals with Multimodal Semantics
 
-[![Project Banner](./64e88dd5-f23c-43e0-adb7-3757c15e8bfc.png)](https://github.com/shachafha/multimodal-decoding-and-the-brain)
+[![Project Banner](./concept-image-pairs.png)](https://github.com/shachafha/multimodal-decoding-and-the-brain)
 
 ## Overview
 This project investigates how the human brain encodes linguistic and conceptual meaning, exploring the alignment between neural activity and a diverse range of semantic embeddings — from static models (GloVe, Word2Vec) and contextual models (BERT), to multimodal vision-language models (CLIP, OpenCLIP, SigLIP, VDR, among others).
@@ -35,7 +35,7 @@ We evaluated a wide suite of models:
 - **VDR**: A modern multi-modal model designed to generalize across diverse inputs.
 - **BLIP-2, ResNet, DINOv2**: Purely visual encoders capturing perceptual structure.
 
-![Category Performance](./61f5091d-bbfe-4390-9e51-a08f30f5db55.png)
+![Category Performance](./cat_models.png)
 
 Our findings reveal that while contextual text models (BERT) modestly improve decoding, purely visual or multimodal models often capture significant neural variance — especially for perceptually grounded concepts like *Food & Drink* or *Places & Structures*.
 
