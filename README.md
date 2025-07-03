@@ -1,7 +1,7 @@
 
 # Words, Images, and the Mind: Bridging Neural Signals with Multimodal Semantics
 
-[![Project Banner](./concept-image-pairs.png)](https://github.com/shachafha/multimodal-decoding-and-the-brain)
+[![Project Banner](./logo.png)](https://github.com/shachafha/multimodal-decoding-and-the-brain)
 
 ## Overview
 This project investigates how the human brain encodes linguistic and conceptual meaning, exploring the alignment between neural activity and a diverse range of semantic embeddings — from static models (GloVe, Word2Vec) and contextual models (BERT), to multimodal vision-language models (CLIP, OpenCLIP, SigLIP, VDR, among others).
@@ -13,14 +13,14 @@ This work builds on the dataset of Pereira et al. (2018) and introduces extensiv
 ---
 
 ## Repository Structure
-- `Multimodals_analysis.ipynb`  
-  Analysis of category-level decoding across static, contextual, and multimodal models.
+- `Sentence_Decoding_and_Sentence_Representations.ipynb`  
+  Sentence-level decoding comparing GloVe vs BERT representations, generalization across datasets, and topic-level performance.
 
 - `Brain_Encoder_Model.ipynb`  
   Encoding analyses predicting voxelwise brain activity from different types of sentence embeddings.
-
-- `Sentence_Decoding_and_Sentence_Representations.ipynb`  
-  Sentence-level decoding comparing GloVe vs BERT representations, generalization across datasets, and topic-level performance.
+  
+- `Multimodals_analysis.ipynb`  
+  Analysis of category-level decoding across static, contextual, and multimodal models.
 
 - `pset_project.pdf`  
   Our final project report detailing methods, experiments, results, and discussion in the style of an ACL/CogSci paper.
@@ -50,7 +50,7 @@ Our findings reveal that while contextual text models (BERT) modestly improve de
 ### 🌱 Concept-Image Grounding
 We explored how well image-based embeddings alone can predict brain activity for visually grounded concepts. Example concept-image pairs include:
 
-![Concept-Image Examples](./64e88dd5-f23c-43e0-adb7-3757c15e8bfc.png)
+![Concept-Image Examples](./concept-image-pairs.png)
 
 ---
 
@@ -67,30 +67,11 @@ We explored how well image-based embeddings alone can predict brain activity for
 
 ---
 
-## 📑 Project Report
-You can find the full write-up of our work in [`pset_project.pdf`](./pset_project.pdf), organized with:
-- **Abstract & Introduction**
-- **Detailed Experiments & Results**
-- **Rich figures on concept, sentence, and category decoding**
-- **Discussion on theoretical implications and future directions**
+## 🔗 Original datasets
+- The code is based on Pereira et al. (2018) data base which can be found here [Lonk to dataset](https://osf.io/hmgv2)
+
+---
 
 This project was completed as part of the *Language, Computation, and Cognition* course at Technion, Spring 2025.
 
----
 
-## 🔗 Links
-- 📄 [Project Report PDF](./pset_project.pdf)
-- 📂 [Code Repository](https://github.com/shachafha/multimodal-decoding-and-the-brain)
-- 📚 Original datasets: Pereira et al. (2018) [Nature Communications](https://www.nature.com/articles/s41467-018-03068-4)
-
----
-
-## 🤝 Acknowledgments
-This work was done by Shachaf Haviv & Shani Angel, under the instruction of Yevgeni Berzak, for the course 00960222 at Technion.
-
----
-
-## 🚀 Future Directions
-- Explore joint multimodal embeddings trained under explicit neural constraints.
-- Integrate additional fMRI datasets (e.g., Tuckute et al., 2024) for richer analysis.
-- Move beyond average pooling to architectures preserving compositional linguistic structure.
