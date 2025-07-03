@@ -37,8 +37,10 @@ We evaluated a wide suite of models:
 - **CLIP / OpenCLIP / SigLIP**: Aligning image-text in shared embedding spaces.
 - **VDR**: A modern multi-modal model designed to generalize across diverse inputs.
 - **BLIP-2, ResNet, DINOv2**: Purely visual encoders capturing perceptual structure.
-
-![Category Performance](./cat_models.png)
+  
+<p align="center">
+<img src="./cat_models.png" width="80%"/>
+</p>
 
 Our findings reveal that while contextual text models (BERT) modestly improve decoding, purely visual or multimodal models often capture significant neural variance — especially for perceptually grounded concepts like *Food & Drink* or *Places & Structures*.
 
@@ -52,8 +54,10 @@ Our findings reveal that while contextual text models (BERT) modestly improve de
 
 ### 🌱 Concept-Image Grounding
 We explored how well image-based embeddings alone can predict brain activity for visually grounded concepts. Example concept-image pairs include:
+<p align="center">
+<img src="./concept-image-periera.png" width="50%"/>
+</p>
 
-![Concept-Image Examples](./concept-image-periera.png)
 
 ---
 
