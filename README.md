@@ -1,8 +1,11 @@
 
 # Words, Images, and the Mind: Bridging Neural Signals with Multimodal Semantics
 <p align="center">
-<img src="./logo.png" width="50%"/>
+<img src="./logo.png" width="35%"/>
 </p>
+
+---
+
 ## Overview
 This project investigates how the human brain encodes linguistic and conceptual meaning, exploring the alignment between neural activity and a diverse range of semantic embeddings — from static models (GloVe, Word2Vec) and contextual models (BERT), to multimodal vision-language models (CLIP, OpenCLIP, SigLIP, VDR, among others).
 
