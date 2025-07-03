@@ -1,7 +1,7 @@
 
 # Words, Images, and the Mind: Bridging Neural Signals with Multimodal Semantics
 <p align="center">
-<img src="./logo.png" width="35%"/>
+<img src="./logo.png" width="20%"/>
 </p>
 
 ---
