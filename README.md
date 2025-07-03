@@ -8,7 +8,7 @@ This project investigates how the human brain encodes linguistic and conceptual 
 
 By decoding both isolated concepts and sentences from fMRI data into these embedding spaces, we aim to better understand the complementary roles of perceptual and linguistic information in modeling brain representations of meaning.
 
-This work builds on the dataset of Pereira et al. (2018) and introduces extensive analyses incorporating image-based, text-based, and combined multimodal embeddings. The results provide insight into which semantic categories are most influenced by grounded or perceptual features.
+This work builds on the dataset of [Pereira et al. (2018)](https://www.nature.com/articles/s41467-018-03068-4) and introduces extensive analyses incorporating image-based, text-based, and combined multimodal embeddings. The results provide insight into which semantic categories are most influenced by grounded or perceptual features.
 
 ---
 
