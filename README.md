@@ -1,6 +1,8 @@
 
 # Words, Images, and the Mind: Bridging Neural Signals with Multimodal Semantics
 
+<img src="./"logo.png" width="50%"/>
+
 [![Project Banner](./logo.png)](https://github.com/shachafha/multimodal-decoding-and-the-brain)
 
 ## Overview
