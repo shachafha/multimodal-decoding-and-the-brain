@@ -53,7 +53,7 @@ Our findings reveal that while contextual text models (BERT) modestly improve de
 ### 🌱 Concept-Image Grounding
 We explored how well image-based embeddings alone can predict brain activity for visually grounded concepts. Example concept-image pairs include:
 
-![Concept-Image Examples](./concept-image-pairs.png)
+![Concept-Image Examples](./concept-image-periera.png)
 
 ---
 
