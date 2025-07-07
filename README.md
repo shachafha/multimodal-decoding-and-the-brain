@@ -36,13 +36,14 @@ This work builds on the dataset of [Pereira et al. (2018)](https://www.nature.co
 We evaluated a wide suite of models:
 - **CLIP / OpenCLIP / SigLIP**: Aligning image-text in shared embedding spaces.
 - **VDR**: A modern multi-modal model designed to generalize across diverse inputs.
-- **BLIP-2, ResNet, DINOv2**: Purely visual encoders capturing perceptual structure.
+- **BLIP-2, ResNet, DINOv2**: Visual encoders capturing perceptual structure.
   
+GloVe and Word2Vec added as textual baselines
 <p align="center">
-<img src="./cat_models.png" width="80%"/>
+<img src="./imagevstext.png" width="80%"/>
 </p>
 
-Our findings reveal that while contextual text models (BERT) modestly improve decoding, purely visual or multimodal models often capture significant neural variance — especially for perceptually grounded concepts like *Food & Drink* or *Places & Structures*.
+Category-level analysis revealed that while visual models excel in perceptually consistent domains, their effectiveness varies by category, and even strong textual baselines like GloVe and Word2Vec do not consistently outperform them.
 
 ---
 
