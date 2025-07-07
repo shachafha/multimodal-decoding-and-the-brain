@@ -26,7 +26,7 @@ This work builds on the dataset of [Pereira et al. (2018)](https://www.nature.co
   Analysis of category-level decoding across static, contextual, and multimodal models.
 
 - `pset_project.pdf`  
-  Our final project report detailing methods, experiments, results, and discussion in the style of an ACL/CogSci paper.
+  Our final project report detailing methods, experiments, results, and discussion in the style of an ACL paper.
 
 ---
 
