@@ -7,7 +7,7 @@
 ---
 
 ## Overview
-This project investigates how the human brain encodes linguistic and conceptual meaning, exploring the alignment between neural activity and a diverse range of semantic embeddings — from static models (GloVe, Word2Vec) and contextual models (BERT), to multimodal vision-language models (CLIP, OpenCLIP, SigLIP, VDR, among others).
+This project investigates how the human brain encodes linguistic and conceptual meaning, exploring the alignment between neural activity and a diverse range of semantic embeddings, from static models (GloVe, Word2Vec) and contextual models (BERT), to multimodal vision-language models (CLIP, OpenCLIP, SigLIP, VDR, among others).
 
 By decoding both isolated concepts and sentences from fMRI data into these embedding spaces, we aim to better understand the complementary roles of perceptual and linguistic information in modeling brain representations of meaning.
 
@@ -25,8 +25,8 @@ This work builds on the dataset of [Pereira et al. (2018)](https://www.nature.co
 - `Multimodals_analysis.ipynb`  
   Analysis of category-level decoding across static, contextual, and multimodal models.
 
-- `pset_project.pdf`  
-  Our final project report detailing methods, experiments, results, and discussion in the style of an ACL paper.
+- `Project_Report.pdf`  
+  Our final project report detailing methods, experiments, results, and discussion.
 
 ---
 
